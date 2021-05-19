@@ -21,3 +21,17 @@ let summery = parseFloat(firstDigit) + parseFloat(secondDigit);
 
 console.log("die Summe beider Zahlen ist: " + summery);
 
+
+/*
+let a,b,summe;
+
+a = prompt("Bitte erste Zahl eingeben: ", "");
+b = prompt("Bitte zweite Zahl eingeben: ", "");
+
+if(isNaN(parseFloat(a))) a = 0;
+if(isNaN(parseFloat(b))) b = 0;
+
+summe = parseFloat(a) + parseFloat(b);
+
+console.log("Die Summe der Zahlen ist: "+summe+".");
+*/
