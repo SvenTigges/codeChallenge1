@@ -13,9 +13,11 @@ Geben Sie die Summe der Zahlen in die Konsole aus:
 let firstDigit = prompt("Bitte Zahl 1 eingeben: ");
 let secondDigit = prompt("Bitte Zahl 2 eingeben: ");
  
-//let sum =(Number(firstDigit) + Number(secondDigit));
+//let summery =(Number(firstDigit) + Number(secondDigit));
 
-let sum = parseInt(firstDigit) + parseInt(secondDigit);
+let summery = parseFloat(firstDigit) + parseFloat(secondDigit);
 
-console.log("die summe beider Zahlen ist: " + sum);
+//let summery = parseInt(firstDigit) + parseInt(secondDigit);
+
+console.log("die Summe beider Zahlen ist: " + summery);
 
